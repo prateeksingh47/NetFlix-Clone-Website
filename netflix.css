@@ -1,0 +1,328 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow-x: hidden;
+}
+.one{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.67),rgba(0, 0, 0, 0.697),rgba(0, 0, 0, 0.752)), url("./images/background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+.netflix-logo{
+    position: relative;
+    top: 20px;
+    left: 150px;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+}
+#lg1{
+    position: relative;
+    right: 235px;
+    top: 20px;
+    padding: 2px;
+    float: right;
+    width: 150px;
+    height: 35px;
+    text-align: center;
+    background-color: #0f0f0f99;
+    color: #fff;
+    border-radius: 4px;
+    border: 2px #fff solid;
+}
+.sign-in{
+    position: relative;
+    top: 20px;
+    background-color: red;
+    color: white;
+    height: 34px;
+    width: 76px;
+    float: right;
+    font-family: sans-serif;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.sign-in:hover{
+    background-color: rgb(194, 23, 23);
+}
+.txt{
+    position: relative;
+    top: 120px;
+    color: white;
+    font-family: sans-serif;
+}
+.txt-1{
+    font-size: 55px;
+}
+.txt-2{
+    font-size: 20px;
+    margin-top: -30px;
+}
+.emailstyle{
+    width: 350px;
+    height: 50px;
+    font-size: 15px;
+    background-color: #27272794;
+    text-indent: 25px;
+    border: 2px #4b4b4b solid;
+    border-radius: 2px;
+    color: white;
+}
+.gso{
+    width: 230px;
+    height: 57px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #ff0000;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+}
+.gso:hover{
+    background-color: rgb(194, 23, 23);
+}
+.custom-shape-divider-bottom-1710411271 {
+    position: relative;
+    top: 290px;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+.custom-shape-divider-bottom-1710411271 svg {
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 60px;
+}
+.custom-shape-divider-bottom-1710411271 .shape-fill {
+    fill: #11193C;
+}
+.two{
+    padding-top: 40px;
+}
+.head-bfr{
+    position: relative;
+    padding-top: 50px;
+    left: 140px;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: white;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.box1{
+    padding-top: 40px;
+    height: 200px;
+    width: 300px;
+    background-color: #43172b;
+    border-radius: 20px;
+    color: rgb(210, 202, 202);   
+}
+.box1 p{
+    padding-left: 15px;
+    font-family: sans-serif ;
+    font-size: 18px;
+}
+.box1 h2, h3{
+    padding-left: 15px;
+    font-family: sans-serif;
+}
+.box1:hover{
+    background-color: #5f2740;
+    height: 204px;
+    width: 304px;
+    
+}
+.btn{
+    position: relative;
+    left: 140px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    background-color: #0f0f0f99;
+    color: #fff;
+    border-radius: 4px;
+    border: 2px #fff solid;
+}
+
+/* .carousel-item img{
+    height: 300px;
+    width: 20px;
+} */
+
+.trending{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 30px;
+    margin-left: 140px;
+}
+
+.box{
+    margin-left: 130px;
+    height: 350px;
+    width: 1240px;
+    background-color: #43172b;
+    border-radius: 20px;
+    color: rgb(210, 202, 202);
+}
+.paras{
+    padding: 60px;
+    font-family: sans-serif;
+}
+.paras h1{
+    font-size:35px;
+}
+.paras p{
+    font-size:15px;
+}
+.boxess{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.boxx1{
+    padding: 10px;
+    height: 240px;
+    width: 275px;
+    background-color: #1c1c39;
+    border-radius: 20px;
+    color: rgb(210, 202, 202);
+}
+.boxx1 h2{
+    font-family: sans-serif;
+    font-size: 30px;
+
+}
+.faq-box{
+    margin-left: 140px;
+     /* height: 80px; */
+    width: 70%;
+    background-color: #2d2d2d;
+    color: rgb(210, 202, 202);   
+}
+.faq-box h4{
+    font-family: sans-serif;
+    font-size: 25px;
+    padding: 20px;
+}
+.v1{
+    background-color: #2d2d2d;
+    font-family: sans-serif;
+    font-size: 25px;
+    display: none;
+    padding: 20px;
+}
+.v2{
+    background-color: #2d2d2d;
+    font-family: sans-serif;
+    font-size: 25px;
+    display: none;
+    padding: 20px;
+}
+.v3{
+    background-color: #2d2d2d;
+    font-family: sans-serif;
+    font-size: 25px;
+    display: none;
+    padding: 20px;
+}
+.v4{
+    background-color: #2d2d2d;
+    font-family: sans-serif;
+    font-size: 25px;
+    display: none;
+    padding: 20px;
+}
+.v5{
+    background-color: #2d2d2d;
+    font-family: sans-serif;
+    font-size: 25px;
+    display: none;
+    padding: 20px;
+}
+.v6{
+    background-color: #2d2d2d;
+    font-family: sans-serif;
+    font-size: 25px;
+    display: none;
+    padding: 20px;
+}
+.head-bfr-again{
+    position: relative;
+    padding-top: 50px;
+    left: 140px;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: white;
+}
+.email-again{
+    width: 660px;
+    height: 50px;
+    font-size: 15px;
+    background-color: #27272794;
+    text-indent: 25px;
+    border: 2px #4b4b4b solid;
+    border-radius: 2px;
+    color: white;
+    margin-left: 140px;
+}
+.gso-again{
+    width: 230px;
+    height: 57px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #ff0000;
+    border: none;
+    border-radius: 5px;   
+}
+.gso-again:hover{
+    background-color: rgb(194, 23, 23);
+}
+.lasts{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.lasts a{
+    color: #565555;
+}
+.lg-last{
+    margin-top: 40px;
+    margin-left: 140px;
+    padding: 2px;
+    width: 120px;
+    height: 35px;
+    text-align: center;
+    background-color: #0f0f0f99;
+    color: #fff;
+    border-radius: 4px;
+    border: 2px #fff solid;   
+}
+.last-bfr{
+    position: relative;
+    padding-top: 30px;
+    left: 140px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #565555;
+}
